@@ -1,14 +1,45 @@
-body {
-
+header {
+    text-align: left;
 }
 
+button {
+    cursor: pointer;
+    color:white;
+    background-color:rgb(78, 12, 139);
+}
 
-
-h1 {
+.carousel {
     text-align: center;
+    position: relative;
+    height: 600px;
+    width: 100%;
+    margin: 0;
 }
 
-div {
-    text-align: right;
+.carousel-container {
+    background: rgb(192, 255, 200);
+    height: 100%;
+    position: relative;
+}
+
+.carousel-track {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    height: 100%;
+    transition: all 3s;
+}
+
+.carousel-items {
     position: absolute;
+    top: 15%;
+    bottom: 0; 
+    width: 100%;
+    display: none;
+}
+
+.active {
+    display:block;
+
 }

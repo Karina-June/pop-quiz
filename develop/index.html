@@ -2,41 +2,63 @@
 <html lang="en-US">
 
     <head>
-        <link rel="stylesheet" href="./style.css">
-        <title>Quiz Time!</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>PopQuiz!</title>
     </head>
     <body>
         <header>
             <a target="_blank" href="#view-high-scores">View High Scores</a>
-            <h1>"It's A Wonderful Life" Quiz</h1>
-            <div>Timer</div>
         </header>
+            <div class="carousel">
+                <div class="carousel-container">
+                    <ul class="carousel-track">
+                        <li class="carousel-items active">
+                        <h1>"It's A Wonderful Life" Quiz</h1>
+                            <p>Try to answer the following "It's A Wonderful Life" movie questionaire within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds.</p>
+                            <button id="start-button">Start Quiz</button>
+                        </li>
+                        <li class="carousel-items">
+                        <h4>What date was the film premiered at The Globe Theatre?</h4>
+                            <button class="question-wrong" >June 1st, 1953</button>
+                            <button class="question-wrong">January 15th, 1949</button>
+                            <button class="question-right" id="right-one" onclick="delay(); delayedMessage();">December 20, 1946</button>
+                            <button class="question-wrong">March 27, 1944</button>
+                        </li>
+                        <li class="carousel-items">
+                        <h4>Who was the director?</h4>
+                            <button class="question-right">Frank Capra</button>
+                            <button class="question-wrong">Quentin Tarantino</button>
+                            <button class="question-wrong">John Ford</button>
+                            <button class="question-wrong">Alfred Hitchcock</button>
+                        </li>
+                        <li class="carousel-items">
+                        <h4>What is the name of George Bailey's guardian angel?</h4>
+                            <button class="question-wrong">Mother Mary</button>
+                            <button class="question-right">Clarence</button>
+                            <button class="question-wrong">Gabriel</button>
+                            <button class="question-wrong">Odbody</button>
+                        </li>
+                        <li class="carousel-items">
+                        <h4>What after school snack was George Bailey's daughter, ZuZu named after?</h4>
+                            <button class="question-wrong">Puppy Chow</button>
+                            <button class="question-wrong">Sugary Bunnies</button>
+                            <button class="question-right">Ginger Snaps</button>
+                            <button class="question-wrong">Pinwheels</button>
+                        </li>
+                        <li class="carousel-items">
+                        <h4>How much money does Uncle Billy lose?</h4>
+                            <button class="question-wrong">$15,000</button>
+                            <button class="question-wrong">$2,000</button>
+                            <button class="question-wrong">$750</button>
+                            <button class="question-right">$8,000</button>
+                        </li>
+                    </ul>           
+                </div>
+            </div>
+            
+            
 
-
-
-
-
-
-
-
-
-        <script src="./script.js"></script>
+<div id="output"></div>
+        <script src="assets/css/js/script.js"></script>
     </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </html>
