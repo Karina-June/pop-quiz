@@ -4,3 +4,7 @@ When selecting your answer you are taken to the next question and a message will
 
 ## Deployed Page
 https://karina-june.github.io/pop-quiz/
+
+## Preview of quiz
+
+![pop-quiz](assets\images\Screenshot(6).png) 
