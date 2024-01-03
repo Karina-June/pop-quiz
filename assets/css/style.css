@@ -5,7 +5,7 @@ header {
 button {
     cursor: pointer;
     color:white;
-    background-color: green;
+    background-color: purple;
 }
 
 .carousel {
@@ -17,7 +17,7 @@ button {
 }
 
 .carousel-container {
-    background: rgb(192, 255, 200);
+    background: green;
     height: 100%;
     position: relative;
 }
